@@ -9,11 +9,15 @@ In the `deploy` folder, you will see *<mark>deployAttacker.js</mark>* file. Ever
 For deploying: ```npx hardhat run deploy/deployAttacker.js --network goerli```
 
 Examples for attacking (*depending on which challenge you are in*):  
-```npx hardhat run scripts/28-attackGatekeeperThree.js --network goerli```  
-```npx hardhat run scripts/03-attackCoinFlip.js --network goerli```
+```
+npx hardhat run scripts/28-attackGatekeeperThree.js --network goerli  
+npx hardhat run scripts/03-attackCoinFlip.js --network goerli
+```
 
 In some challenges, you will need a private key or Goerli RPC URL. You should create a `.env` file in your main folder and fill these with your variables:  
 ```
 GOERLI_RPC_URL= 
 PRIVATE_KEY= 
 ```
+
+You can find my blog series about this challenges in [here](https://osmanozdemir.hashnode.dev/series/approach-to-ethernaut).
