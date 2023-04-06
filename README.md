@@ -20,4 +20,4 @@ GOERLI_RPC_URL=
 PRIVATE_KEY= 
 ```
 
-You can find my blog series about this challenges in [here](https://osmanozdemir.hashnode.dev/series/approach-to-ethernaut).
+You can find my blog series about these challenges in [here](https://osmanozdemir.hashnode.dev/series/approach-to-ethernaut).
