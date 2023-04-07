@@ -2,7 +2,7 @@
 
 This repository includes all the [ethernaut](https://ethernaut.openzeppelin.com/) contracts and the solutions for these challenges.
 
-You can find challenge contracts and attacker contracts for every challenge(if required) in the `contracts` folder. You will also find the attacker scripts for every challenge in the `scripts` folder.
+You can find challenge contracts and attacker contracts(if required) for every challenge in the `contracts` folder. You will also find the attacker scripts for every challenge in the `scripts` folder.
 
 In the `deploy` folder, you will see *<mark>deployAttacker.js</mark>* file. Every time you want to complete a challenge, you need to deploy the attacker contract with this file. Don't forget to change the `INSTANCE_ADDRESS` variable and the contract name inside the `hre.ethers.getContractFactory("")` for that specific challenge.
 
